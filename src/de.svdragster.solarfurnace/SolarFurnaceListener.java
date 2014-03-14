@@ -32,7 +32,7 @@ public class SolarFurnaceListener implements PluginListener {
 			if (furnace.getWorld().getRelativeTime() > 0 && furnace.getWorld().getRelativeTime() < 13500) {
 				furnace.setBurnTime((short) 800);
 			}
-			furnace.setCookTime((short) (furnace.getCookTime() * 1.5)); // This does not work
+			furnace.setCookTime((short) (furnace.getCookTime() * 1.5)); // This does not work currently
 		}
 	}
 	
